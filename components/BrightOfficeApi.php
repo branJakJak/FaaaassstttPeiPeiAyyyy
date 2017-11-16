@@ -62,7 +62,8 @@ class BrightOfficeApi extends Component
     public function send()
     {
         $resultMessages = [];
-        $url = "http://www.claimscrm.co.uk/XMLReceive.asmx/CaseApplication";
+        $url = "https://fastppicentre.co.uk/XMLReceive.asmx/CaseApplication";
+	    //http://fastppicentre.co.uk
         $generatedXml = $this->generateXML();
         $headers = array(
             "Content-Type: application/x-www-form-urlencoded"
