@@ -81,10 +81,10 @@ if ( YII_ENV_DEV ) {
 $config['modules']['user'] = [
 	'class'                  => 'dektrium\user\Module',
 	'enableUnconfirmedLogin' => true,
-	'enableConfirmation' => false,
+	'enableConfirmation'     => false,
 	'confirmWithin'          => 21600,
 	'cost'                   => 12,
-	'admins'                 => [ 'admin' ]
+	'admins'                 => [ 'admin', 'fastppi' ]
 ];
 
 
