@@ -5,6 +5,7 @@ namespace app\controllers;
 use Yii;
 use app\models\PPILead;
 use yii\data\ActiveDataProvider;
+use yii\filters\AccessControl;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
@@ -25,6 +26,17 @@ class PpiLeadController extends Controller
                 'actions' => [
                     'delete' => ['POST'],
                 ],
+            ],
+            'access' => [
+	            'class' => AccessControl::className(),
+	            'only' => ['index','view','update','delete'],
+	            'rules' => [
+		            [
+			            'allow' => true,
+			            'actions' => ['index','view','update','delete'],
+			            'roles' => ['@'],
+		            ],
+	            ],
             ],
         ];
     }
