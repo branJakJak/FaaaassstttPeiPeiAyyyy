@@ -33,6 +33,8 @@ use yii\db\Expression;
  */
 class PPILead extends \yii\db\ActiveRecord
 {
+    public $sourceName="anthonye";
+    public $sourceAffName="anthonye";
     /**
      * @inheritdoc
      */
@@ -49,6 +51,7 @@ class PPILead extends \yii\db\ActiveRecord
         return [
             [['created_at', 'updated_at', 'notes'], 'safe'],
             [['title', 'firstName', 'lastName', 'houseNumber', 'houseName', 'address1', 'address2', 'address3', 'address4', 'postCode', 'homeTelephone', 'mobileTelephone', 'email', 'sourceName', 'sourceAffName', 'customerType','reference_id'], 'string', 'max' => 255],
+            [['email'], 'email'],
         ];
     }
 

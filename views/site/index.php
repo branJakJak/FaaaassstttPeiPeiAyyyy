@@ -5,6 +5,7 @@
 
 use kartik\helpers\Html;
 use yii\bootstrap\ActiveForm;
+use yii\helpers\Url;
 
 
 $this->title = Yii::$app->name;
@@ -18,6 +19,7 @@ $this->title = Yii::$app->name;
     <?php if ($model->hasErrors()): ?>
         <?= Html::errorSummary($model) ?>
     <?php endif; ?>
+
 
 
     <div class="body-content">
@@ -63,16 +65,27 @@ $this->title = Yii::$app->name;
         <?php $this->endBlock(); ?>
         <div class="row">
             <div class="col-lg-2"></div>
+
+
             <div class="col-lg-8" style="">
-            <?=
-            Html::panel(
-                [
-                    'heading' => 'Please check the details before submitting',
-                    'body' => $this->blocks['form']
-                ],
-                Html::TYPE_INFO
-            );
-            ?>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Multiple account</h3>
+                    </div>
+                    <div class="panel-body">
+                        <?= Html::a("Click here if this would contain multiple account.", Url::to("/multiple?".http_build_query($_GET)), ['class' => 'btn btn-success']); ?>
+                        
+                    </div>
+                </div>
+                <?=
+                    Html::panel(
+                        [
+                            'heading' => 'Please check the details before submitting',
+                            'body' => $this->blocks['form']
+                        ],
+                        Html::TYPE_INFO
+                    );
+                ?>
             </div>
             <div class="col-lg-2"></div>
         </div>
