@@ -20,7 +20,14 @@ class BrightOfficeApi extends Component
      * @var $model PPILead
      */
     public $model;
-    private $xmlResponse;
+    /** 
+    * @var $xmlResponse String
+    */
+    protected $xmlResponse;
+    /** 
+    * @var $serverUrl String
+    */
+    protected $serverUrl="http://www.claimscrm.co.uk/XMLReceive.asmx/CaseApplication";
 
     /**
      * @return mixed
@@ -62,7 +69,7 @@ class BrightOfficeApi extends Component
     public function send()
     {
         $resultMessages = [];
-        $url = "https://fastppicentre.co.uk/XMLReceive.asmx/CaseApplication";
+        $url = $this->serverUrl;
 	    //http://fastppicentre.co.uk
         $generatedXml = $this->generateXML();
         $headers = array(
@@ -98,7 +105,7 @@ class BrightOfficeApi extends Component
         return $resultMessages;
     }
 
-    private function generateXML()
+    protected function generateXML()
     {
         //Generate the XML string
         $XML = "";
