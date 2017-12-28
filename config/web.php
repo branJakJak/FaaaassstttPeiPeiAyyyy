@@ -17,8 +17,9 @@ $config = [
 			// !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
 			'cookieValidationKey' => 'Jw1cB86QiuaLlGJzFP-JVUSjC5V6xm3R',
 		],
-		'brightOffice' => [
-			'class' => 'app\components\BrightOfficeApi'
+		'apiBackend' => [
+			// 'class' => 'app\components\BrightOfficeApi'
+			'class' => 'app\components\FastPpiCentreApi'
 		],
 		'cache'        => [
 			'class' => 'yii\caching\FileCache',
