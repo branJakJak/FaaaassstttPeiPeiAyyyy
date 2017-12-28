@@ -1,0 +1,94 @@
+<Application>
+	<Cases>
+		<Case>
+			<CreateCase>1</CreateCase>
+
+			<Title>Mr</Title>
+			<FirstName>Rachel</FirstName>
+			<LastName>Atherton</LastName>
+
+			<HouseNumber>18</HouseNumber>
+			<HouseName></HouseName>
+			<Address1></Address1> 
+			<Address2></Address2> 
+			<Address3></Address3> 
+			<Address4></Address4> 
+			<PostCode>WN8 9TW</PostCode>
+
+			<PreviousAddresses>
+				<PreviousAddress>
+					<Address1>14 The Parks</Address1>
+					<Address2>Haydock</Address2>
+					<Address3></Address3>
+					<Address4>Merseyside</Address4>
+					<Postcode>WA12 0JQ</Postcode>
+				</PreviousAddress>
+				<PreviousAddress>
+					<Address1>1 Main Road</Address1>
+					<Address2>Upper East Side</Address2>
+					<Address3>Chorley</Address3>
+					<Address4>Lancs</Address4>
+					<Postcode>PR7 1DL</Postcode>
+				</PreviousAddress>
+			</PreviousAddresses>			
+
+			<HomeTelephone>01704 880092</HomeTelephone> 
+			<WorkTelephone>0845 643 4012</WorkTelephone> 
+			<MobileTelephone>07987654321</MobileTelephone> 
+			<Email>support@brightoffice.co.uk</Email> 
+
+			<CustomerStatus>CUSTOMER</CustomerStatus>
+			<OldReference>126354</OldReference>
+			<BestPersonContact></BestPersonContact> 
+			<BestTimeContact></BestTimeContact> 
+			<NationalInsuranceNumber></NationalInsuranceNumber>
+			
+			<ClaimType>PENSION-TRANSFER</ClaimType>			
+			<PensionTransfer>
+				<PensionTransferDetails>
+					<CurrentProvider>RBS</CurrentProvider>
+					<PensionName>first job</PensionName>
+					<EstTransferValue>30000</EstTransferValue>
+					<ActualTransferValue>350000</ActualTransferValue>
+					<ReferenceNumber>999333-RBS</ReferenceNumber>
+					<TransferStatus>In-Progress</TransferStatus>
+					<CustomerContribution>15000</CustomerContribution>
+					<EmployeeContribution>20000</EmployeeContribution>
+				</PensionTransferDetails>
+				<PensionTransferDetails>
+					<CurrentProvider>Black Horse</CurrentProvider>
+					<PensionName>another job</PensionName>
+					<EstTransferValue>20000</EstTransferValue>
+					<ActualTransferValue>350000</ActualTransferValue>
+					<ReferenceNumber>BH010101</ReferenceNumber>
+					<TransferStatus>Inactive</TransferStatus>
+					<CustomerContribution>15000</CustomerContribution>
+					<EmployeeContribution>20000</EmployeeContribution>
+				</PensionTransferDetails>
+			</PensionTransfer>
+			
+			
+			<Appointments>
+				<Appointment>
+					<AppointmentDate>01/04/2016 10:30</AppointmentDate>
+					<AppointmentStatus>In-Progress</AppointmentStatus>
+					<SalesStage>Appointment-Made</SalesStage>
+					<SalesRepresentative>James.kellett</SalesRepresentative>
+					<StaffCode>lynsey.thompson</StaffCode>
+					<Supervisor-Confirmer>lynsey.thompson</Supervisor-Confirmer>
+					<Notes></Notes>
+				</Appointment>
+				
+				<Appointment>
+					<AppointmentDate>13/04/2016 10:30</AppointmentDate>
+					<AppointmentStatus>In-Progress</AppointmentStatus>
+					<SalesStage>Appointment-Made</SalesStage>
+					<SalesRepresentative>James.kellett</SalesRepresentative>
+					<StaffCode>lynsey.thompson</StaffCode>
+					<Supervisor-Confirmer>lynsey.thompson</Supervisor-Confirmer>
+					<Notes></Notes>
+				</Appointment>
+			</Appointments>
+		</Case>
+	</Cases>
+</Application>

@@ -1,0 +1,425 @@
+<Application>
+	<Cases>
+		<Case>
+			<CreateCase>1</CreateCase>
+			<!-- User's name NOT Username -->
+			<UserName>test user</UserName>
+			<ApplicantID/>
+			<Title>Mr</Title> 
+			<FirstName>Bobby</FirstName>
+			<LastName>BrightOffice</LastName>
+			<HomeTelephone>01704 880092</HomeTelephone> 
+			<WorkTelephone>0845 643 4012</WorkTelephone> 
+			<MobileTelephone>07987654321</MobileTelephone> 
+			<Email>support@brightoffice.co.uk</Email> 
+
+			<CustomerStatus>CUSTOMER</CustomerStatus>
+			<OldReference>126354</OldReference>
+			<!-- CreditType: Use the description NOT code -->
+			<ProviderProductType>Credit Card</ProviderProductType>
+			<CustomerType>PPI</CustomerType>
+			<DuplicationVerifyType/>
+			<LoanPurpose>Mortgage</LoanPurpose>
+			<CaseType/>
+			<!--PreSubCreditType: Comma seperated, no space -->
+			<PreSubCreditTypes>CREDIT CARD,PERSONAL LOAN</PreSubCreditTypes>
+
+			<HouseNumber>1</HouseNumber> 
+			<HouseName /> 
+			<Address1>Maple Court Maple View</Address1> 
+			<Address2>White Moss Business Park</Address2> 
+			<Address3>Skelmersdale</Address3> 
+			<Address4>Lancashire</Address4> 
+			<PostCode>WN8 9TW</PostCode>
+
+			<PreviousAddresses>
+				<PreviousAddress>
+					<Address1>14 The Parks</Address1>
+					<Address2>Haydock</Address2>
+					<Address3/>
+					<Address4>Merseyside</Address4>
+					<Postcode>WA12 0JQ</Postcode>
+					<YearsAtPreviousAddress>2</YearsAtPreviousAddress>
+				</PreviousAddress>
+				<PreviousAddress>
+					<Address1>1 Main Road</Address1>
+					<Address2>Upper East Side</Address2>
+					<Address3>Chorley</Address3>
+					<Address4>Lancs</Address4>
+					<Postcode>PR7 1DL</Postcode>
+					<YearsAtPreviousAddress>6</YearsAtPreviousAddress>
+				</PreviousAddress>
+			</PreviousAddresses>
+
+			<DatCreated>01/04/2015</DatCreated>
+			<CustomerAuthoritySent>02/04/2015</CustomerAuthoritySent> 
+			<BestPersonContact /> 
+			<BestTimeContact /> 
+			<NationalInsuranceNumber /> 
+			<Broker /> 
+			<AccountNumber>7847265388222</AccountNumber> 
+			<Provider>Santander</Provider> 
+			<ProviderAddress1>1 High Street</ProviderAddress1> 
+			<ProviderAddress2>The Parade</ProviderAddress2> 
+			<ProviderAddress3>Ormskirk</ProviderAddress3> 
+			<ProviderAddress4>Lancashire</ProviderAddress4> 
+			<ProviderPostcode>L39 6GH</ProviderPostcode> 
+			<BorrowAmount>5000</BorrowAmount>
+			<ClaimInterest/>
+			<CaseStatus>SUB</CaseStatus>
+			<ProviderProduct>LOAN-SECURED</ProviderProduct>
+			<TelephonyPIN/>
+			<Commission/>
+			<ClaimType>PPI-CLAIM</ClaimType>
+			<SortCode/>
+			<StatusDate>11/09/2011</StatusDate>
+			<ProcessorName/>
+			<AlternateSalutation>Bob</AlternateSalutation>
+
+			<SourceName>Aaron Bennett</SourceName>
+			<SourceEMail>markb@creditagreement.co.uk</SourceEMail>
+			<SourceContact>Head Office</SourceContact>
+			<SourceAddress1>Capricorn Park</SourceAddress1>
+			<SourceAddress2>Blakewater Road</SourceAddress2>
+			<SourceAddress3>Blackburn</SourceAddress3>
+			<SourceAddress4>Lancashire</SourceAddress4>
+			<SourceAffName>Philip Travis</SourceAffName>
+			<SourceCampaign>Telephone Campaign</SourceCampaign>
+
+			<InitialFee>1200.00</InitialFee>
+			<InitialSourceFee>200</InitialSourceFee>
+			<OtherSourceFee/>
+			<CompletionFee/>
+			<InitialAffiliateFee/>
+			<OtherAffiliateFee/>
+			<CompletionAffiliateFee/>
+			<SourceRef/>
+			<CurrentBalance/>
+			<OriginalAmountBorrowed/>
+			<Term/>
+			<MonthlyPayment/>
+			<CreditCardQuestion/>
+			<CreditCardNumber/>
+			<CardType/>
+			<CardStartDate/>
+			<CardExpiryDate/>
+			<NameOnCard/>
+			<LendersPaidOf/>
+			<InterestRate/>
+			<ArrangedThroughBrokerOrGaraje/>
+			<WasLoanCommissionDisclosed/>
+			<ArrangementFeePaid/>
+			<PPIOnLoan/>
+			<PPIChargesOnLoan/>
+			<FactFindNotes/>
+			<ClaimAddress1/>
+			<ClaimAddress2/>
+			<ClaimAddress3/>
+			<ClaimAddress4/>
+			<ClaimPostCode/>
+			<DateofBirth>01/01/2011</DateofBirth>
+			<Drawdown1Date>01/01/2011</Drawdown1Date>
+			<Drawdown1Amount/>
+			<CaseFunder/>
+			<CreditLimit>125.00</CreditLimit>
+			<FunderAccountNumber/>
+
+			<App1FirstIncome/>
+			<App1SecondIncome/>
+			<App1OtherIncomeDescription/>
+
+			<App1Sex/>
+			<App1MaritalStatus/>
+
+			<App1CurrentAddressYears/>
+			<App1CurrentAddressMonths/>
+			<App1CurrentAddressEstimatedValue/>
+			<App1CurrentAddressPurchasePrice/>
+
+			<App1OccupancyType/>
+			<App1Occupation/>
+			<App1EmployerName/>
+			<App1EmployerContact/>
+			<App1EmployerTelephone/>
+			<App1EmployerAddress1/>
+			<App1EmployerAddress2/>
+			<App1EmployerAddress3/>
+			<App1EmployerAddress4/>
+			<App1EmployerPostcode/>
+			<App1TimeInEmploymentYears/>
+			<App1TimeInEmploymentMonths/>
+			<App1EmploymentStatus/>
+			<App1PartTimeHoursWorked/>
+
+			<App1PreviousHouseName/>
+			<App1PreviousHouseNumber/>
+			<App1PreviousAddress1/>
+			<App1PreviousAddress2/>
+			<App1PreviousAddress3/>
+			<App1PreviousAddress4/>
+			<App1PreviousPostcode/>
+			<App1TimeAtAddressYears/>
+			<App1TimeAtAddressMonths/>
+
+			<App1PreviousEmploymentStatus/>
+			<App1PreviousOccupation/>
+			<App1PreviousEmployerName/>
+			<App1PreviousEmployerTelephone/>
+			<App1PreviousEmployerAddress1/>
+			<App1PreviousEmployerAddress2/>
+			<App1PreviousEmployerAddress3/>
+			<App1PreviousEmployerAddress4/>
+			<App1PreviousEmployerPostcode/>
+			<App1PreviousTimeInEmploymentYears/>
+			<App1PreviousTimeInEmploymentMonths/>
+
+			<App2Title/>
+			<App2FirstName>Aaron</App2FirstName>
+			<App2LastName>Brighter</App2LastName>
+			<App2HouseNumber/>
+			<App2HouseName/>
+			<App2Address1/>
+			<App2Address2/>
+			<App2Address3/>
+			<App2Address4/>
+			<App2PostCode/>
+			<App2HomeTelephone/>
+			<App2WorkTelephone/>
+			<App2MobileTelephone/>
+			<App2Email/>
+			<App2DateOfBirth>01/01/2010</App2DateOfBirth>
+
+			<Applicants>
+				<Applicant>
+					<ApplicantNumber>3</ApplicantNumber>
+					<Title>Mr</Title>
+					<FirstName>Josh</FirstName>
+					<LastName>Peake</LastName>
+					<HouseName>Unit 1B </HouseName>
+					<HouseNumber>1</HouseNumber> 
+					<Address1>Maple View </Address1>
+					<Address3>Skelmersdale</Address3>
+					<Address4/>
+					<PostCode>WN8 9TW</PostCode>
+					<HomeTelephone>07860000000</HomeTelephone>
+					<MobileTelephone/>
+					<WorkTelephone/>
+					<Email/>
+					<DateofBirth>1990-10-07</DateofBirth>
+					<NationalInsuranceNumber>JP 33 40 A</NationalInsuranceNumber> 
+				</Applicant>
+				<Applicant>
+					<ApplicantNumber>4</ApplicantNumber>
+					<Title>Mr</Title>
+					<FirstName>Brad</FirstName>
+					<LastName>Morton</LastName>
+					<HouseName>Unit 1B </HouseName>
+					<HouseNumber>1</HouseNumber> 
+					<Address1>Maple View </Address1>
+					<Address3>Skelmersdale</Address3>
+					<Address4/>
+					<PostCode>WN8 9TW</PostCode>
+					<HomeTelephone>07860000000</HomeTelephone>
+					<MobileTelephone/>
+					<WorkTelephone/>
+					<Email/>
+					<DateofBirth>1990-10-07</DateofBirth>
+					<NationalInsuranceNumber>JP 25 62 A</NationalInsuranceNumber> 
+				</Applicant>
+				<Applicant>
+					<ApplicantNumber>5</ApplicantNumber>
+					<Title>Mr</Title>
+					<FirstName>Aaron</FirstName>
+					<LastName>Peake</LastName>
+					<HouseName>Unit 1B </HouseName>
+					<HouseNumber>1</HouseNumber> 
+					<Address1>Maple View </Address1>
+					<Address3>Skelmersdale</Address3>
+					<Address4/>
+					<PostCode>WN8 9TW</PostCode>
+					<HomeTelephone>07860000000</HomeTelephone>
+					<MobileTelephone/>
+					<WorkTelephone/>
+					<Email/>
+					<DateofBirth>1990-10-07</DateofBirth>
+					<NationalInsuranceNumber>JP 25 62 A</NationalInsuranceNumber> 
+				</Applicant>
+				<Applicant>
+					<ApplicantNumber>6</ApplicantNumber>
+					<Title>Mr</Title>
+					<FirstName>Tony</FirstName>
+					<LastName>Jones</LastName>
+					<HouseName>Unit 1B </HouseName>
+					<HouseNumber>1</HouseNumber> 
+					<Address1>Maple View </Address1>
+					<Address3>Skelmersdale</Address3>
+					<Address4/>
+					<PostCode>WN8 9TW</PostCode>
+					<HomeTelephone>07860000000</HomeTelephone>
+					<MobileTelephone/>
+					<WorkTelephone/>
+					<Email/>
+					<DateofBirth>1990-10-07</DateofBirth>
+					<NationalInsuranceNumber>JP 25 62 A</NationalInsuranceNumber> 
+				</Applicant>
+				<Applicant>
+					<ApplicantNumber>7</ApplicantNumber>
+					<Title>Mr</Title>
+					<FirstName>Lynsey</FirstName>
+					<LastName>Thompson</LastName>
+					<HouseName>Unit 1B </HouseName>
+					<HouseNumber>1</HouseNumber> 
+					<Address1>Maple View </Address1>
+					<Address3>Skelmersdale</Address3>
+					<Address4/>
+					<PostCode>WN8 9TW</PostCode>
+					<HomeTelephone>07860000000</HomeTelephone>
+					<MobileTelephone/>
+					<WorkTelephone/>
+					<Email/>
+					<DateofBirth>1990-10-07</DateofBirth>
+					<NationalInsuranceNumber>JP 25 62 A</NationalInsuranceNumber> 
+				</Applicant>
+				<Applicant>
+					<ApplicantNumber>8</ApplicantNumber>
+					<Title>Mr</Title>
+					<FirstName>James</FirstName>
+					<LastName>Price</LastName>
+					<HouseName>Unit 1B </HouseName>
+					<HouseNumber>1</HouseNumber> 
+					<Address1>Maple View </Address1>
+					<Address3>Skelmersdale</Address3>
+					<Address4/>
+					<PostCode>WN8 9TW</PostCode>
+					<HomeTelephone>07860000000</HomeTelephone>
+					<MobileTelephone/>
+					<WorkTelephone/>
+					<Email/>
+					<DateofBirth>1990-10-07</DateofBirth>
+					<NationalInsuranceNumber>JP 25 62 A</NationalInsuranceNumber> 
+				</Applicant>
+				<Applicant>
+					<ApplicantNumber>9</ApplicantNumber>
+					<Title>Mr</Title>
+					<FirstName>Dan</FirstName>
+					<LastName>Heesome</LastName>
+					<HouseName>Unit 1B </HouseName>
+					<HouseNumber>1</HouseNumber> 
+					<Address1>Maple View </Address1>
+					<Address3>Skelmersdale</Address3>
+					<Address4/>
+					<PostCode>WN8 9TW</PostCode>
+					<HomeTelephone>07860000000</HomeTelephone>
+					<MobileTelephone/>
+					<WorkTelephone/>
+					<Email/>
+					<DateofBirth>1990-10-07</DateofBirth>
+					<NationalInsuranceNumber>JP 25 62 A</NationalInsuranceNumber> 
+				</Applicant>
+				<Applicant>
+					<ApplicantNumber>10</ApplicantNumber>
+					<Title>Mr</Title>
+					<FirstName>James</FirstName>
+					<LastName>Kellett</LastName>
+					<HouseName>Unit 1B </HouseName>
+					<HouseNumber>1</HouseNumber> 
+					<Address1>Maple View </Address1>
+					<Address3>Skelmersdale</Address3>
+					<Address4/>
+					<PostCode>WN8 9AP</PostCode>
+					<HomeTelephone>07860000001</HomeTelephone>
+					<MobileTelephone/>
+					<WorkTelephone/>
+					<Email/>
+					<DateofBirth>1990-10-10</DateofBirth>
+					<NationalInsuranceNumber>JP 25 62 A</NationalInsuranceNumber> 
+				</Applicant>
+			</Applicants>
+
+
+			<App2FirstIncome/>
+			<App2SecondIncome/>
+			<App2OtherIncomeDescription/>
+			<App2Sex/>
+			<App2MaritalStatus/>
+
+			<App2CurrentAddressYears/>
+			<App2CurrentAddressMonths/>
+			<App2CurrentAddressEstimatedValue/>
+			<App2CurrentAddressPurchasePrice/>
+
+			<App2OccupancyType/>
+			<App2Occupation/>
+			<App2EmployerName/>
+			<App2EmployerContact/>
+			<App2EmployerTelephone/>
+			<App2EmployerAddress1/>
+			<App2EmployerAddress2/>
+			<App2EmployerAddress3/>
+			<App2EmployerAddress4/>
+			<App2EmployerPostcode/>
+			<App2TimeInEmploymentYears/>
+			<App2TimeInEmploymentMonths/>
+			<App2EmploymentStatus/>
+			<App2PartTimeHoursWorked/>
+
+			<App2PreviousHouseName/>
+			<App2PreviousHouseNumber/>
+			<App2PreviousAddress1/>
+			<App2PreviousAddress2/>
+			<App2PreviousAddress3/>
+			<App2PreviousAddress4/>
+			<App2PreviousPostcode/>
+			<App2TimeAtAddressYears/>
+			<App2TimeAtAddressMonths/>
+
+			<App2PreviousEmploymentStatus/>
+			<App2PreviousOccupation/>
+			<App2PreviousEmployerName/>
+			<App2PreviousEmployerTelephone/>
+			<App2PreviousEmployerAddress1/>
+			<App2PreviousEmployerAddress2/>
+			<App2PreviousEmployerAddress3/>
+			<App2PreviousEmployerAddress4/>
+			<App2PreviousEmployerPostcode/>
+			<App2PreviousTimeInEmploymentYears/>
+			<App2PreviousTimeInEmploymentMonths/>
+			<SupervisorConfirmer>john.smith</SupervisorConfirmer> 
+			<Notes/>
+			<Files>
+				<Group>
+					<Description>FOS Docs</Description>
+					<Notes/>
+					<File>Fos Docs.doc</File>
+				</Group>
+				<Group>
+					<Description>LOA</Description>
+					<Notes>Signed LOA</Notes>
+					<File>Scanned LOA.pdf</File>
+				</Group>
+			</Files>
+			<CaseAssessor>
+				<Questionnaire>
+					<Question>
+						<QuestionNumber>1</QuestionNumber>
+						<QuestionAnswer>Yes</QuestionAnswer>
+					</Question>
+					<Question>
+						<QuestionNumber>2</QuestionNumber>
+						<QuestionAnswer>19/04/1950</QuestionAnswer>
+					</Question>
+				</Questionnaire>
+			</CaseAssessor>
+			<CustomerQuestionnaire>
+				<Question>
+					<QNo>1</QNo>
+					<Answer>Yes</Answer>
+				</Question>
+				<Question>
+					<QNo>2</QNo>
+					<Answer>Sometimes</Answer>
+				</Question>
+			</CustomerQuestionnaire>
+		</Case>
+	</Cases>
+</Application>

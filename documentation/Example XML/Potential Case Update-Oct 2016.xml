@@ -1,0 +1,18 @@
+<Application>
+	<Cases>
+		<Case>
+		<!-- This must be included to update -->
+		<UpdatePotentialCase>1</UpdatePotentialCase>
+		<!-- The Potential Case reference to update -->
+		<PCDId>39</PCDId>
+
+		<!-- Fields to update -->
+		<Provider>Santander</Provider>
+		<AccountNumber>7847265388222</AccountNumber>
+		<SortCode></SortCode>	
+		<!-- CreditType: Use the description NOT code -->
+		<ProviderProductType>Credit Card</ProviderProductType>
+		<PreSubCreditTypes>CREDIT CARD,PERSONAL LOAN</PreSubCreditTypes>
+		</Case>
+	</Cases>
+</Application>

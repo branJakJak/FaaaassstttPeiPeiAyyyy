@@ -1,0 +1,212 @@
+<Application>
+	<Cases>
+		<Case>
+		<!-- This must be included to update -->
+		<AllowUpdate>1</AllowUpdate>
+		<!-- The customer reference to update -->
+		<CustomerReference>C1635399</CustomerReference>
+
+		<!-- Fields to update -->
+		<FirstName>James</FirstName>
+		<LastName>Kellett</LastName>
+		<HomeTelephone>01704 000999</HomeTelephone> 
+		<WorkTelephone>0845 643 0000</WorkTelephone> 
+		<MobileTelephone>07999999999</MobileTelephone> 
+		<Email>james@brightoffice.co.uk</Email> 
+		<HouseNumber>2</HouseNumber> 
+		<HouseName>the meadows</HouseName> 
+		<Address1>High Street</Address1> 
+		<Address2>White Moss</Address2> 
+		<Address3>Kirkby</Address3> 
+		<Address4>Liverpool</Address4> 
+		<PostCode>l33 1ze</PostCode>
+		<DateofBirth>11/12/1990</DateofBirth>
+		<OtherName>Paul</OtherName>
+		<PreviousName>Groome</PreviousName>
+		
+		<App2Title>Mr</App2Title>
+		<App2FirstName>Aaron</App2FirstName>
+		<App2LastName>Cloudier</App2LastName>
+		<App2HomeTelephone>01704 999555</App2HomeTelephone> 
+		<App2WorkTelephone>0845 643 1111</App2WorkTelephone> 
+		<App2MobileTelephone>07860550055</App2MobileTelephone> 
+		<App2Email>aaron@brightoffice.co.uk</App2Email> 
+		<App2HouseNumber>3</App2HouseNumber> 
+		<App2HouseName>the view</App2HouseName> 
+		<App2Address1>High Street</App2Address1> 
+		<App2Address2>White Moss</App2Address2> 
+		<App2Address3>Kirkby</App2Address3> 
+		<App2Address4>Liverpool</App2Address4> 
+		<App2PostCode>l33 1ze</App2PostCode>
+		<App2DateofBirth>11/12/1990</App2DateofBirth>
+		<App2OtherName>Gary</App2OtherName>
+		<App2PreviousName>Groomeerton</App2PreviousName>
+		
+			<PreviousAddresses>
+				<PreviousAddress>
+					<Address1>14 The Parks</Address1>
+					<Address2>Haydock</Address2>
+					<Address3/>
+					<Address4>Merseyside</Address4>
+					<Postcode>WA12 0JQ</Postcode>
+					<YearsAtPreviousAddress>5</YearsAtPreviousAddress>
+				</PreviousAddress>
+				<PreviousAddress>
+					<Address1>1 Main Road</Address1>
+					<Address2>Upper East Side</Address2>
+					<Address3>Chorley</Address3>
+					<Address4>Lancs</Address4>
+					<Postcode>PR7 1DL</Postcode>
+					<YearsAtPreviousAddress>3</YearsAtPreviousAddress>
+				</PreviousAddress>
+			</PreviousAddresses>
+		
+		<Applicants>
+					<Applicant>
+						<ApplicantNumber>3</ApplicantNumber>
+						<Title>Mr</Title>
+						<FirstName>Joshua</FirstName>
+						<LastName>Peakeson</LastName>
+						<HouseName>Flat </HouseName>
+						<HouseNumber>11</HouseNumber> 
+						<Address1>Maple Street </Address1>
+						<Address3>Skem</Address3>
+						<Address4>West Lancs</Address4>
+						<PostCode>WN8 9JP</PostCode>
+						<HomeTelephone>0151 546 4444</HomeTelephone>
+						<MobileTelephone>07860000111</MobileTelephone>
+						<WorkTelephone>0845 643 0011</WorkTelephone>
+						<Email>jp@brightoffice.co.uk</Email>
+						<DateofBirth>1994-10-07</DateofBirth>
+						<NationalInsuranceNumber>JP 33 45 AB</NationalInsuranceNumber> 
+					</Applicant>
+					<Applicant>
+						<ApplicantNumber>4</ApplicantNumber>
+						<Title>Mr</Title>
+						<FirstName>Brad</FirstName>
+						<LastName>Morton</LastName>
+						<HouseName>Unit 1B </HouseName>
+						<HouseNumber>1</HouseNumber> 
+						<Address1>Maple View </Address1>
+						<Address3>Skelmersdale</Address3>
+						<Address4/>
+						<PostCode>WN8 9TW</PostCode>
+						<HomeTelephone>07860000000</HomeTelephone>
+						<MobileTelephone/>
+						<WorkTelephone/>
+						<Email/>
+						<DateofBirth>1990-10-07</DateofBirth>
+						<NationalInsuranceNumber>JP 25 62 A</NationalInsuranceNumber> 
+					</Applicant>
+					<Applicant>
+						<ApplicantNumber>5</ApplicantNumber>
+						<Title>Mr</Title>
+						<FirstName>Aaron</FirstName>
+						<LastName>Peake</LastName>
+						<HouseName>Unit 1B </HouseName>
+						<HouseNumber>1</HouseNumber> 
+						<Address1>Maple View </Address1>
+						<Address3>Skelmersdale</Address3>
+						<Address4/>
+						<PostCode>WN8 9TW</PostCode>
+						<HomeTelephone>07860000000</HomeTelephone>
+						<MobileTelephone/>
+						<WorkTelephone/>
+						<Email/>
+						<DateofBirth>1990-10-07</DateofBirth>
+						<NationalInsuranceNumber>JP 25 62 A</NationalInsuranceNumber> 
+					</Applicant>
+					<Applicant>
+						<ApplicantNumber>6</ApplicantNumber>
+						<Title>Mr</Title>
+						<FirstName>Tony</FirstName>
+						<LastName>Jones</LastName>
+						<HouseName>Unit 1B </HouseName>
+						<HouseNumber>1</HouseNumber> 
+						<Address1>Maple View </Address1>
+						<Address3>Skelmersdale</Address3>
+						<Address4/>
+						<PostCode>WN8 9TW</PostCode>
+						<HomeTelephone>07860000000</HomeTelephone>
+						<MobileTelephone/>
+						<WorkTelephone/>
+						<Email/>
+						<DateofBirth>1990-10-07</DateofBirth>
+						<NationalInsuranceNumber>JP 25 62 A</NationalInsuranceNumber> 
+					</Applicant>
+					<Applicant>
+						<ApplicantNumber>7</ApplicantNumber>
+						<Title>Mr</Title>
+						<FirstName>Lynsey</FirstName>
+						<LastName>Thompson</LastName>
+						<HouseName>Unit 1B </HouseName>
+						<HouseNumber>1</HouseNumber> 
+						<Address1>Maple View </Address1>
+						<Address3>Skelmersdale</Address3>
+						<Address4/>
+						<PostCode>WN8 9TW</PostCode>
+						<HomeTelephone>07860000000</HomeTelephone>
+						<MobileTelephone/>
+						<WorkTelephone/>
+						<Email/>
+						<DateofBirth>1990-10-07</DateofBirth>
+						<NationalInsuranceNumber>JP 25 62 A</NationalInsuranceNumber> 
+					</Applicant>
+					<Applicant>
+						<ApplicantNumber>8</ApplicantNumber>
+						<Title>Mr</Title>
+						<FirstName>James</FirstName>
+						<LastName>Price</LastName>
+						<HouseName>Unit 1B </HouseName>
+						<HouseNumber>1</HouseNumber> 
+						<Address1>Maple View </Address1>
+						<Address3>Skelmersdale</Address3>
+						<Address4/>
+						<PostCode>WN8 9TW</PostCode>
+						<HomeTelephone>07860000000</HomeTelephone>
+						<MobileTelephone/>
+						<WorkTelephone/>
+						<Email/>
+						<DateofBirth>1990-10-07</DateofBirth>
+						<NationalInsuranceNumber>JP 25 62 A</NationalInsuranceNumber> 
+					</Applicant>
+					<Applicant>
+						<ApplicantNumber>9</ApplicantNumber>
+						<Title>Mr</Title>
+						<FirstName>Dan</FirstName>
+						<LastName>Heesome</LastName>
+						<HouseName>Unit 1B </HouseName>
+						<HouseNumber>1</HouseNumber> 
+						<Address1>Maple View </Address1>
+						<Address3>Skelmersdale</Address3>
+						<Address4/>
+						<PostCode>WN8 9TW</PostCode>
+						<HomeTelephone>07860000000</HomeTelephone>
+						<MobileTelephone/>
+						<WorkTelephone/>
+						<Email/>
+						<DateofBirth>1990-10-07</DateofBirth>
+						<NationalInsuranceNumber>JP 25 62 A</NationalInsuranceNumber> 
+					</Applicant>
+					<Applicant>
+						<ApplicantNumber>10</ApplicantNumber>
+						<Title>Mr</Title>
+						<FirstName>Jane</FirstName>
+						<LastName>Kellettor</LastName>
+						<HouseName>Unit 1C </HouseName>
+						<HouseNumber>12</HouseNumber> 
+						<Address1>Potter Place </Address1>
+						<Address3>East Pimbo</Address3>
+						<Address4/>
+						<PostCode>WN8 9JK</PostCode>
+						<HomeTelephone>07860000010</HomeTelephone>
+						<MobileTelephone/>
+						<WorkTelephone/>
+						<Email/>
+						<DateofBirth>1995-10-10</DateofBirth>
+						<NationalInsuranceNumber>JP 25 62 JK</NationalInsuranceNumber> 
+					</Applicant>
+				</Applicants>
+		</Case>
+	</Cases>
+</Application>

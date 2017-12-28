@@ -1,0 +1,22 @@
+<Application>
+	<Cases>
+		<Case>
+			<FirstName>Rachel</FirstName>
+			<LastName>Atherton</LastName>
+			<PostCode>L6 1JQ</PostCode>
+			
+			<Appointments>
+				<Appointment>
+					<AppointmentDate>13/11/2015 10:30</AppointmentDate>
+					<AppointmentStatus>In-Progress</AppointmentStatus>
+					<SalesStage>Appointment-Made</SalesStage>
+					<SalesRepresentative>James.kellett</SalesRepresentative>
+					<StaffCode>lynsey.thompson</StaffCode>
+					<Supervisor-Confirmer>lynsey.thompson</Supervisor-Confirmer>
+					<UserCreated>lynsey.thompson</UserCreated>
+					<Notes></Notes>
+				</Appointment>
+			</Appointments>
+		</Case>
+	</Cases>
+</Application>

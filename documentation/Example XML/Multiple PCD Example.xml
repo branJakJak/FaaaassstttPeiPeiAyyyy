@@ -1,0 +1,68 @@
+<Application>
+	<Cases>
+		<Case>
+		<!-- First Case -->
+			<CreateCase>1</CreateCase>
+			<UserName>test user</UserName>
+			<ApplicantID></ApplicantID>
+			<Title>Mr</Title> 
+			<FirstName>Bobby</FirstName>
+			<LastName>BrightOffice</LastName>
+			<HomeTelephone>01704 880092</HomeTelephone> 
+			<WorkTelephone>0845 643 4012</WorkTelephone> 
+			<MobileTelephone>07987654321</MobileTelephone> 
+			<Email>support@brightoffice.co.uk</Email> 
+			
+			<CustomerStatus>CUSTOMER</CustomerStatus>
+			<OldReference>126354</OldReference>
+			<ProviderProductType>Credit Card</ProviderProductType>
+			<CustomerType>PPI</CustomerType>
+			<DuplicationVerifyType></DuplicationVerifyType>
+			<LoanPurpose>Mortgage</LoanPurpose>
+			<ClaimType>PPI-CLAIM</ClaimType>
+
+			<HouseNumber>1</HouseNumber> 
+			<HouseName /> 
+			<Address1>Maple Court Maple View</Address1> 
+			<Address2>White Moss Business Park</Address2> 
+			<Address3>Skelmersdale</Address3> 
+			<Address4>Lancashire</Address4> 
+			<PostCode>WN8 9TW</PostCode>
+			
+			<AccountNumber>111111111</AccountNumber>
+			<Provider>ABBEY</Provider>
+		</Case>
+		
+		<Case>
+		<!-- Second Case -->
+			<CreateCase>1</CreateCase>
+			<UserName>test user</UserName>
+			<ApplicantID></ApplicantID>
+			<Title>Mr</Title> 
+			<FirstName>Bobby</FirstName>
+			<LastName>BrightOffice</LastName>
+			<HomeTelephone>01704 880092</HomeTelephone> 
+			<WorkTelephone>0845 643 4012</WorkTelephone> 
+			<MobileTelephone>07987654321</MobileTelephone> 
+			<Email>support@brightoffice.co.uk</Email> 
+			
+			<CustomerStatus>CUSTOMER</CustomerStatus>
+			<OldReference>126354</OldReference>
+			<ProviderProductType>Credit Card</ProviderProductType>
+			<ClaimType>PBA-CLAIM</ClaimType>
+			<DuplicationVerifyType></DuplicationVerifyType>
+			<LoanPurpose>Mortgage</LoanPurpose>
+			
+			<HouseNumber>1</HouseNumber> 
+			<HouseName /> 
+			<Address1>Maple Court Maple View</Address1> 
+			<Address2>White Moss Business Park</Address2> 
+			<Address3>Skelmersdale</Address3> 
+			<Address4>Lancashire</Address4> 
+			<PostCode>WN8 9TW</PostCode>
+			
+			<AccountNumber>22222222</AccountNumber>
+			<Provider>ABBEY</Provider>
+		</Case>
+	</Cases>
+</Application>

@@ -1,0 +1,201 @@
+<Application>
+	<Cases>
+		<Case>
+			<CreateCase>2</CreateCase>
+			<ApplicantID />
+			<CaseType>LoansMort</CaseType>
+			<LoanTermType>M</LoanTermType>
+			<ClaimType>Unsecured-Loan</ClaimType>
+			<Title>Ms</Title>
+			<FirstName>26092017-XML-1</FirstName>
+			<LastName>26092017-XML-1</LastName>
+			<App1PassportNumber />
+			<DateofBirth>01-05-1992</DateofBirth>
+			<App1MaritalStatus>Divorced</App1MaritalStatus>
+			<App1OccupancyType>Tenant</App1OccupancyType>
+			<CustomerCustomField1 />
+			<HomeTelephone>01212084999</HomeTelephone>
+			<Email>tester3333@arthaus.mk</Email>
+			<MobileTelephone>07795225999</MobileTelephone>
+			<WorkTelephone />
+			<Address1>High Street</Address1>
+			<Address2 />
+			<Address3>Westbury</Address3>
+			<Address4 />
+			<PostCode>BA133BN-1</PostCode>
+			<App1CurrentAddressYears>6</App1CurrentAddressYears>
+			<App1CurrentAddressMonths>10</App1CurrentAddressMonths>
+			<App1EmployerName />
+			<App1Occupation>teacher</App1Occupation>
+			<App1EmployerAddress1 />
+			<App1EmployerAddress2 />
+			<App1EmployerAddress3 />
+			<App1EmployerAddress4 />
+			<App1EmployerPostcode />
+			<App1TimeInEmploymentYears>4</App1TimeInEmploymentYears>
+			<App1TimeInEmploymentMonths>0</App1TimeInEmploymentMonths>
+			<App1PreviousEmployerName />
+			<App1PreviousOccupation />
+			<App1PreviousEmployerAddress1 />
+			<App1PreviousEmployerAddress2 />
+			<App1PreviousEmployerPostcode />
+			<App1PreviousTimeInEmploymentYears />
+			<App1PreviousTimeInEmploymentMonths />
+			<LoanAmount>1000</LoanAmount>
+			<Term>48</Term>
+			<BestPersonContact />
+			<BestTimeContact />
+			<Notes />
+			<SourceName>BrightOffice</SourceName>
+			<App1FirstIncome>2500</App1FirstIncome>
+			<App1SecondIncome />
+			<App1OtherIncomeDescription />
+			<App1Sex>F</App1Sex>
+			<App1CurrentAddressEstimatedValue />
+			<App1CurrentAddressPurchasePrice />
+			<App1PreviousHouseName />
+			<App1PreviousHouseNumber />
+			<App1PreviousAddress1 />
+			<App1PreviousAddress2 />
+			<App1PreviousAddress3 />
+			<App1PreviousAddress4 />
+			<App1PreviousPostcode />
+			<App1TimeAtAddressYears />
+			<App1TimeAtAddressMonths />
+			<App1EmployerContact />
+			<App1EmployerTelephone />
+			<App1EmploymentStatus>Employed</App1EmploymentStatus>
+			<App1PartTimeHoursWorked />
+			<App1PreviousEmploymentStatus />
+			<App1PreviousEmployerTelephone />
+			<App1PreviousEmployerAddress3 />
+			<App1PreviousEmployerAddress4 />
+			<InterestRate />
+			<CustomerStatus />
+			<HouseNumber>11</HouseNumber>
+			<HouseName />
+			<DatCreated />
+			<Broker />
+			<AccountNumber />
+			<Provider />
+			<ProviderAddress1 />
+			<ProviderAddress2 />
+			<ProviderAddress3 />
+			<ProviderAddress4 />
+			<ProviderPostcode />
+			<BorrowAmount />
+			<ClaimInterest />
+			<CaseStatus>Ready-To-Auto-Send</CaseStatus>
+			<TelephonyPIN />
+			<Commission />
+			<StatusDate />
+			<ProcessorName />
+			<LoanPurpose>CA1</LoanPurpose>
+			<InitialSourceFee />
+			<OtherSourceFee />
+			<CompletionFee />
+			<InitialAffiliateFee />
+			<OtherAffiliateFee />
+			<CompletionAffiliateFee />
+			<CurrentBalance />
+			<OriginalAmountBorrowed />
+			<MonthlyPayment />
+			<CreditCardQuestion />
+			<InitialFee />
+			<CustomerCompletionFee />
+			<CustomerCompletionFeePercentage />
+			<SourceAffName />
+			<SourceRef />
+			<CreditCardNumber />
+			<CardType />
+			<CardStartDate />
+			<CardExpiryDate />
+			<NameOnCard />
+			<LendersPaidOf />
+			<ArrangedThroughBrokerOrGaraje />
+			<WasLoanCommissionDisclosed />
+			<ArrangementFeePaid />
+			<PPIOnLoan />
+			<PPIChargesOnLoan />
+			<FactFindNotes />
+			<ClaimAddress1 />
+			<ClaimAddress2 />
+			<ClaimAddress3 />
+			<ClaimAddress4 />
+			<ClaimPostCode />
+			<App2DateOfBirth />
+			<Drawdown1Date />
+			<Drawdown1Amount />
+			<CaseFunder />
+			<FunderAccountNumber />
+			<ProviderProductType>Unsecured</ProviderProductType>
+			<IncomeOther />
+			<App1IncomeFrequency>Annually</App1IncomeFrequency>
+			<App1EmployerTelephoneNumber />
+			<EmploymentDateStarted>01-05-2008T00:00:00</EmploymentDateStarted>
+			<MortgageLoans />
+			<CaseSecurityAddress />
+			<MonthlyIncomes>
+				<MonthlyIncome>
+					<IncomeType>CHB</IncomeType>
+					<IncomeBasis />
+					<IncomeBasisAmount />
+					<IncomeMonthlyAmount>200</IncomeMonthlyAmount>
+					<IncomeDescription />
+					<IncomeClient />
+				</MonthlyIncome>
+				<MonthlyIncome>
+					<IncomeType>CSA</IncomeType>
+					<IncomeBasis />
+					<IncomeBasisAmount />
+					<IncomeMonthlyAmount>150</IncomeMonthlyAmount>
+					<IncomeDescription />
+					<IncomeClient />
+				</MonthlyIncome>
+			</MonthlyIncomes>
+			<Banks>
+				<BankDetails>
+					<ApplicantNumber>1</ApplicantNumber>
+					<BankAccountName />
+					<BankAccountSortCode />
+					<BankAccountNumber />
+					<BankChequeCard />
+					<BankYears>3</BankYears>
+					<BankMonths>0</BankMonths>
+					<BankAccountType>Current Account</BankAccountType>
+					<BankNotes />
+				</BankDetails>
+			</Banks>
+			<PreviousAddresses>
+				<PreviousAddress>
+					<Address1>The Parks</Address1>
+					<Address2>Haydock</Address2>
+					<Address3 />
+					<Address4>Merseyside</Address4>
+					<Postcode>WA12 0JQ</Postcode>
+					<TimeAtAddressMonths>4</TimeAtAddressMonths>
+					<TimeAtAddressYears>2</TimeAtAddressYears>
+					<HouseNumber>14</HouseNumber>
+					<MovedOutDate>01-02-2001</MovedOutDate>
+					<HouseName />
+				</PreviousAddress>
+				<PreviousAddress>
+					<Address1>Main Road</Address1>
+					<Address2>Upper East Side</Address2>
+					<Address3>Chorley</Address3>
+					<Address4>Lancs</Address4>
+					<Postcode>PR7 1DL</Postcode>
+					<TimeAtAddressMonths />
+					<TimeAtAddressYears />
+					<HouseNumber>1</HouseNumber>
+					<HouseName>The Meadows</HouseName>
+					<MovedOutDate />
+				</PreviousAddress>
+			</PreviousAddresses>
+		</Case>
+	</Cases>
+	<UserSecurityCredentials>
+		<UserName></UserName>
+		<Password></Password>
+	</UserSecurityCredentials>
+</Application>

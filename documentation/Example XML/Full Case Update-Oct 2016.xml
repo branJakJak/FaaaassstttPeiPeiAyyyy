@@ -1,0 +1,54 @@
+<Application>
+	<Cases>
+		<Case>
+		<!-- This must be included to update -->
+		<AllowUpdate>1</AllowUpdate>
+		<!-- The Case reference to update -->
+		<ApplicantID>CA000123</ApplicantID>
+
+		<!-- Fields to update -->
+		<FirstName>James</FirstName>
+		<LastName>Kellett</LastName>
+		<HomeTelephone></HomeTelephone> 
+		<WorkTelephone></WorkTelephone> 
+		<MobileTelephone>07999999999</MobileTelephone> 
+		<Email>james@brightoffice.co.uk</Email> 
+		<HouseNumber>2</HouseNumber> 
+		<HouseName></HouseName> 
+		<Address1></Address1> 
+		<Address2>White Moss</Address2> 
+		<Address3></Address3> 
+		<Address4></Address4> 
+		<PostCode></PostCode>
+		<DateofBirth>01/01/2011</DateofBirth>
+		<OtherName></OtherName>
+		<PreviousName></PreviousName>
+		
+		<App2Title/>
+		<App2FirstName>Aaron</App2FirstName>
+		<App2LastName>Cloudy</App2LastName>
+		<App2HouseNumber/>
+		<App2HouseName/>
+		<App2Address1/>
+		<App2Address2/>
+		<App2Address3/>
+		<App2Address4/>
+		<App2PostCode/>
+		<App2HomeTelephone/>
+		<App2WorkTelephone/>
+		<App2MobileTelephone/>
+		<App2Email/>
+		<App2DateOfBirth>01/01/2010</App2DateOfBirth>
+		<OtherName></OtherName>
+		<PreviousName></PreviousName>
+		
+		<Provider>Santander</Provider>
+		<AccountNumber>7847265388222</AccountNumber>
+		<SortCode></SortCode>	
+		<!-- CreditType: Use the description NOT code -->
+		<ProviderProductType>Credit Card</ProviderProductType>
+		<PreSubCreditTypes>CREDIT CARD,PERSONAL LOAN</PreSubCreditTypes>
+		
+		</Case>
+	</Cases>
+</Application>

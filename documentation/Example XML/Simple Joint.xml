@@ -1,0 +1,32 @@
+<Application>
+	<Cases>
+		<Case>
+			<CreateCase>3</CreateCase>
+			<Title>Mr</Title> 
+			<FirstName>James</FirstName>
+			<LastName>Jointson</LastName>
+			<HomeTelephone>01704 880092</HomeTelephone> 
+			<Email>support@brightoffice.co.uk</Email>
+			
+			<HouseNumber>1</HouseNumber> 
+			<Address1>Maple Court Maple View</Address1> 
+			<Address2>White Moss Business Park</Address2> 
+			<Address3>Skelmersdale</Address3> 
+			<Address4>Lancashire</Address4> 
+			<PostCode>WN8 9TW</PostCode>
+
+
+			<App2Title>Mrs.</App2Title>
+			<App2FirstName>Janet</App2FirstName>
+			<App2LastName>Jointson</App2LastName>
+			<App2DateOfBirth>01/01/2010</App2DateOfBirth>
+			<CustomerStatus>CUSTOMER</CustomerStatus>
+			<OldReference>126354</OldReference>
+			
+			<ClaimType>PPI-CLAIM</ClaimType>
+			<Provider>All in One Finance</Provider>
+			<AccountNumber>111111111</AccountNumber>
+			<SortCode>11-22-33</SortCode>
+		</Case>
+	</Cases>
+</Application>

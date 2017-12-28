@@ -1,0 +1,54 @@
+<Application>
+	<Cases>
+		<Case>
+			<!-- Create joint customer -->
+			<CreateCase>0</CreateCase>
+			
+			<FirstName>James</FirstName>
+			<LastName>Kellett</LastName>
+			<PostCode>PR7 2DL</PostCode>
+			
+			<App2FirstName>Jane</App2FirstName>
+			<App2LastName>Kellett</App2LastName>
+		</Case>
+	</Cases>
+
+	
+	<Cases>
+		<Case>
+			<!-- Create PotentialCase for App1 only -->
+			<CreateCase>1</CreateCase>
+			<FirstName>James</FirstName>
+			<LastName>Kellett</LastName>
+			<PostCode>PR7 2DL</PostCode>
+			<ClaimType>PPI-CLAIM</ClaimType>
+		</Case>
+	</Cases>
+
+	
+	<Cases>
+		<Case>
+			<!-- Create PotentialCase for App2 only -->
+			<CreateCase>1</CreateCase>
+			<FirstName>Jane</FirstName>
+			<LastName>Kellett</LastName>
+			<PostCode>PR7 2DL</PostCode>
+			<ClaimType>PPI-CLAIM</ClaimType>
+		</Case>
+	</Cases>
+
+
+	<Cases>
+		<Case>
+			<!-- Create joint PotentialCase -->
+			<CreateCase>1</CreateCase>
+			<FirstName>James</FirstName>
+			<LastName>Kellett</LastName>
+
+			<App2FirstName>Jane</App2FirstName>
+			<App2LastName>Kellett</App2LastName>
+			<PostCode>PR7 2DL</PostCode>
+			<ClaimType>PPI-CLAIM</ClaimType>
+		</Case>
+	</Cases>
+</Application>

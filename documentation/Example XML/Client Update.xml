@@ -1,0 +1,21 @@
+<Application><Cases><Case>
+	<!-- This must be included to update -->
+	<AllowUpdate>1</AllowUpdate>
+	<!-- The customer reference to update -->
+	<CustomerReference>C001472</CustomerReference>
+
+	<!-- Fields to update -->
+	<FirstName>James</FirstName>
+	<LastName>Kellett</LastName>
+	<HomeTelephone></HomeTelephone> 
+	<WorkTelephone></WorkTelephone> 
+	<MobileTelephone>07999999999</MobileTelephone> 
+	<Email>james@brightoffice.co.uk</Email> 
+	<HouseNumber>2</HouseNumber> 
+	<HouseName></HouseName> 
+	<Address1></Address1> 
+	<Address2>White Moss</Address2> 
+	<Address3></Address3> 
+	<Address4></Address4> 
+	<PostCode></PostCode>
+</Case></Cases></Application>

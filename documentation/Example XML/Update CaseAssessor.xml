@@ -1,0 +1,50 @@
+<Application>
+	<!-- This method updates all case assessors for the customer that match the specified ClaimType -->
+	<Cases>
+		<Case>
+			<UpdateCaseAssessor>1</UpdateCaseAssessor>
+			<CustomerReference>C001358</CustomerReference>
+			<ClaimType>PPI-CLAIM</ClaimType>
+
+			<CaseAssessor>
+				<Questionnaire>
+					<Question>
+						<QuestionNumber>4</QuestionNumber>
+						<QuestionAnswer>Pressured by bank</QuestionAnswer>
+					</Question>
+					<Question>
+						<QuestionNumber>11</QuestionNumber>
+						<QuestionAnswer>No</QuestionAnswer>
+					</Question>
+				</Questionnaire>
+			</CaseAssessor>
+		</Case>
+	</Cases>
+</Application>
+
+
+
+
+<Application>
+	<!-- This method updates the case assessors for a single case -->
+	<Cases>
+		<Case>
+			<UpdateCaseAssessor>1</UpdateCaseAssessor>
+			<CustomerReference>C000003</CustomerReference>
+			<ClaimType>PPI-CLAIM</ClaimType>
+			<ApplicantID>CA000469</ApplicantID>
+			<CaseAssessor>
+				<Questionnaire>
+					<Question>
+						<QuestionNumber>7</QuestionNumber>
+						<QuestionAnswer>Yes</QuestionAnswer>
+					</Question>
+					<Question>
+						<QuestionNumber>10</QuestionNumber>
+						<QuestionAnswer>12543625</QuestionAnswer>
+					</Question>
+				</Questionnaire>
+			</CaseAssessor>
+		</Case>
+	</Cases>
+</Application>

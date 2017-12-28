@@ -1,0 +1,15 @@
+<Application>
+	<Cases>
+		<Case>
+			<UpdatePotentialCase>1</UpdatePotentialCase>
+			<PCDId>942</PCDId>
+			<CreatedDate>01/04/2015 16:00</CreatedDate>
+		</Case>
+		
+		<Case>
+			<UpdatePotentialCase>1</UpdatePotentialCase>
+			<PCDId>943</PCDId>
+			<CreatedDate>03/04/2015</CreatedDate>
+		</Case>
+	</Cases>
+</Application>

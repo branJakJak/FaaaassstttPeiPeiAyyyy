@@ -1,0 +1,20 @@
+<Application>
+	<Cases>
+		<Case>
+			<AllowUpdate>1</AllowUpdate>
+			<ApplicantID>CA000817</ApplicantID>
+			
+			<CaseNotes>
+				<CaseNote>
+					<Type>Case Notes</Type>
+					<Note>This is a case note</Note>
+				</CaseNote>
+				
+				<CaseNote>
+					<Type>General Notes</Type>
+					<Note>This is a general note</Note>
+				</CaseNote>
+			</CaseNotes>
+		</Case>
+	</Cases>
+</Application>

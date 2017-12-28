@@ -1,0 +1,9 @@
+<Application>
+	<Cases>
+		<Case>
+			<AllowUpdate>1</AllowUpdate>
+			<CustomerReference>C002075</CustomerReference>
+			<DatCreated>01/04/2016 11:27:00</DatCreated>
+		</Case>
+	</Cases>
+</Application>

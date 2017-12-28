@@ -1,0 +1,11 @@
+<Application>
+	<Cases>
+		<Case>
+			<CreateCase>1</CreateCase>
+			<!-- This must be a valid CustomerRef or the XML will fail -->
+			<CustomerReference>C001506</CustomerReference>
+			<ClaimType>PPI-CLAIM</ClaimType>
+			<Notes>New PPI case discovered for this client</Notes>
+		</Case>
+	</Cases>
+</Application>
