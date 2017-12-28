@@ -66,13 +66,13 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-        /* @var $brightOfficeApi BrightOfficeApi */
+        /* @var $apiBackend FastPpiCentreApi */
         $model = new PPILead();
         if ($model->load(\Yii::$app->request->post()) && $model->validate()) {
-            $brightOfficeApi = \Yii::$app->brightOffice;
+            $apiBackend = \Yii::$app->apiBackend;
             try{
-                $brightOfficeApi->setModel($model);
-                $resultMessages = $brightOfficeApi->send();
+                $apiBackend->setModel($model);
+                $resultMessages = $apiBackend->send();
                 $resultMessages = implode(".", $resultMessages);
                 $resultMessagesArr = explode(" ", $resultMessages);
                 if (count($resultMessagesArr) === 1) {
