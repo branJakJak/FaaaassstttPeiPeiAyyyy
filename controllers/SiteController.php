@@ -81,7 +81,7 @@ class SiteController extends Controller
                     $resultMessages = rtrim($resultMessages);
                     $model->reference_id = $resultMessages;
                     $model->save();
-                    $referenceLink = Html::a($resultMessages, Url::to(['/ppi-lead/view',"id"=>$model->id]));
+                    $referenceLink = Html::a($resultMessages, Url::to(['/lead/form',"id"=>$model->id]));
                     \Yii::$app->session->setFlash('success', "Record created. Here is your reference id : ".$referenceLink);
 
                 } else{

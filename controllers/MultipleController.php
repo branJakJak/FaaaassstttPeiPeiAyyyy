@@ -3,17 +3,17 @@
 namespace app\controllers;
 
 use Yii;
-use app\models\PPILead;
+use app\models\Client;
 use yii\base\Model;
 
 class MultipleController extends \yii\web\Controller {
 	public function actionIndex() {
 		$modelCollection = [];
-		$model           = new PPILead();
+		$model           = new Client();
 		if ( \Yii::$app->request->isPost ) {
-			foreach ( Yii::$app->request->post( 'PPILead' ) as $keyIndex => $currentPostLead ) {
-				$newModel             = new PPILead();
-				$newModel->attributes = Yii::$app->request->post( 'PPILead' )[ $keyIndex ];
+			foreach ( Yii::$app->request->post( 'Client' ) as $keyIndex => $currentPostLead ) {
+				$newModel             = new Client();
+				$newModel->attributes = Yii::$app->request->post( 'Client' )[ $keyIndex ];
 				$modelCollection[]    = $newModel;
 			}
 			if ( \Yii::$app->request->post( 'submit' ) === 'Submit' ) {
@@ -22,7 +22,7 @@ class MultipleController extends \yii\web\Controller {
 					$currentModel->save();
 				}
 			} else {
-				$modelCollection[ count( $modelCollection ) ] = new PPILead();
+				$modelCollection[ count( $modelCollection ) ] = new Client();
 			}
 		} else if ( \Yii::$app->request->isGet ) {
 			$model->title           = \Yii::$app->request->get( 'title' );
@@ -39,12 +39,8 @@ class MultipleController extends \yii\web\Controller {
 			$model->homeTelephone   = \Yii::$app->request->get( 'alt_phone' );
 			$model->email           = \Yii::$app->request->get( 'email' );
 			$model->notes           = \Yii::$app->request->get( 'comments' );
-			$model->sourceName      = '';
-			$model->sourceAffName   = '';
-			$model->customerType    = '';
 			$modelCollection[]      = $model;
 		}
-
 		return $this->render( 'index', [ 'modelCollection' => $modelCollection ] );
 	}
 

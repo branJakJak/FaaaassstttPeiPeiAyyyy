@@ -11,11 +11,6 @@ use yii\helpers\Url;
 $this->title = Yii::$app->name;
 ?>
 <div class="site-index">
-
-    <div class="jumbotron">
-        <h1>FAST PPi Lead!</h1>
-        <p class="lead">Please check the information before submitting.</p>
-    </div>
     <?php if ($model->hasErrors()): ?>
         <?= Html::errorSummary($model) ?>
     <?php endif; ?>
@@ -65,15 +60,13 @@ $this->title = Yii::$app->name;
         <?php $this->endBlock(); ?>
         <div class="row">
             <div class="col-lg-2"></div>
-
-
             <div class="col-lg-8" style="">
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <h3 class="panel-title">Multiple account</h3>
+                        <h3 class="panel-title">Multiple client</h3>
                     </div>
                     <div class="panel-body">
-                        <?= Html::a("Click here if this would contain multiple account.", Url::to("/multiple?".http_build_query($_GET)), ['class' => 'btn btn-success']); ?>
+                        <?= Html::a("Click here for multiple client.", Url::to("/multiple?".http_build_query($_GET)), ['class' => 'btn btn-success']); ?>
                         
                     </div>
                 </div>

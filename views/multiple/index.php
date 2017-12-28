@@ -9,7 +9,7 @@ use yii\widgets\ActiveForm;
 use yii\helpers\Html;
 
 /* @var $modelCollection array */
-/* @var $currentModel \app\models\PPILead */
+/* @var $currentModel \app\models\Client */
 
 ?>
 <div class="row">
@@ -33,7 +33,7 @@ use yii\helpers\Html;
 		</div>
 	<?php endforeach ?>
 	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-		<?= Html::submitButton('Save', ['class' => 'btn btn-success btn-block btn-lg','value'=>'Submit']) ?>
+		<?= Html::submitButton('Proceed to lead form', ['class' => 'btn btn-success btn-block btn-lg','value'=>'Submit']) ?>
 	</div>
 	<?php ActiveForm::end(); ?>
 	
