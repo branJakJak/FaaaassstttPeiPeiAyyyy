@@ -51,7 +51,7 @@ $this->title = Yii::$app->name;
                     <?= $form->field($model, 'notes')->textarea(['style'=>"margin: 0px -6px 0px 0px; width: 693px; height: 145px;"]) ?>
 
                     <div class="form-group">
-                        <?= Html::submitButton('Save', ['class' => 'btn btn-primary btn-block','style'=>'font-size: 20px']) ?>
+                        <?= Html::submitButton('Next', ['class' => 'btn btn-primary btn-block','style'=>'font-size: 20px']) ?>
                     </div>
 
                     <?php ActiveForm::end(); ?>

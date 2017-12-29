@@ -33,7 +33,7 @@ use yii\helpers\Html;
 		</div>
 	<?php endforeach ?>
 	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-		<?= Html::submitButton('Proceed to lead form', ['class' => 'btn btn-success btn-block btn-lg','value'=>'Submit']) ?>
+		<?= Html::submitButton('Next', ['class' => 'btn btn-success btn-block btn-lg','value'=>'Submit']) ?>
 	</div>
 	<?php ActiveForm::end(); ?>
 	

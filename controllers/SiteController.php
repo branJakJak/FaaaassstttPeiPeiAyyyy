@@ -14,6 +14,7 @@ use yii\web\Response;
 use yii\filters\VerbFilter;
 use app\models\LoginForm;
 use app\models\ContactForm;
+use app\models\Client;
 
 class SiteController extends Controller
 {
@@ -67,7 +68,7 @@ class SiteController extends Controller
     public function actionIndex()
     {
         /* @var $apiBackend FastPpiCentreApi */
-        $model = new PPILead();
+        $model = new Client();
         if ($model->load(\Yii::$app->request->post()) && $model->validate()) {
             $apiBackend = \Yii::$app->apiBackend;
             try{
@@ -83,7 +84,6 @@ class SiteController extends Controller
                     $model->save();
                     $referenceLink = Html::a($resultMessages, Url::to(['/lead/form',"id"=>$model->id]));
                     \Yii::$app->session->setFlash('success', "Record created. Here is your reference id : ".$referenceLink);
-
                 } else{
                     // there is an error
                     \Yii::$app->session->setFlash('error', "We met some error : ".$resultMessages );
@@ -106,9 +106,6 @@ class SiteController extends Controller
             $model->homeTelephone = \Yii::$app->request->get('alt_phone');
             $model->email = \Yii::$app->request->get('email');
             $model->notes = \Yii::$app->request->get('comments');
-            $model->sourceName = '';
-            $model->sourceAffName = '';
-            $model->customerType = '';
         }
         return $this->render('index',['model'=>$model]);
     }

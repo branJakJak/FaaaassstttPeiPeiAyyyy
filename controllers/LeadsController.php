@@ -108,12 +108,26 @@ class LeadsController extends Controller
 
     public function actionForm($id)
     {
-        $this->findByClient($id)->delete();        
+        $clientCollection = [];
+        if (strpos($id, ',') !== false ) {
+            $clientIds = explode(",", $id);
+            foreach ($clientIds as $currentClientId) {
+                $clientCollection[] = $this->findByClientId($currentClientId);
+            }
+        } else {
+            $clientCollection[] = $this->findByClientId($currentClientId);
+        }
+        return $this->render('claim', [
+            'clientCollection' => $clientCollection
+        ]);
     }
-    protected function findByClient($clientId)
+    protected function findByClientId($clientId)
     {
-        //
-        
+        $clientId = intval($clientId);
+        if (($model = Client::findOne($clientId)) !== null) {
+            return $model;
+        }
+        throw new NotFoundHttpException('The requested page does not exist.');
     }
 
     /**

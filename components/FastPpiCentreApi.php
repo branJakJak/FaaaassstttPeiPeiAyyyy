@@ -20,6 +20,7 @@ class FastPpiCentreApi extends BrightOfficeApi
         //Generate the XML string
         $XML = "";
         $XML .= "<Application><Cases><Case>";
+        $XML .= "<AllowUpdate>1</AllowUpdate>";
         $XML .= "<CreateCase>0</CreateCase>";
         $XML .= "<Title>{$this->model->title}</Title>";
         $XML .= "<FirstName>{$this->model->firstName}</FirstName>";

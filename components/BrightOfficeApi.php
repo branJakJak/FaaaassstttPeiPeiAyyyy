@@ -29,6 +29,20 @@ class BrightOfficeApi extends Component
     */
     protected $serverUrl="http://www.claimscrm.co.uk/XMLReceive.asmx/CaseApplication";
 
+    /** 
+    * @var $clientCode String
+    */    
+    protected $clientCode;
+
+    public function getClientCode()
+    {
+        return $this->clientCode;
+    }
+    public function setClientCode($clientCode)
+    {
+        $this->clientCode = $clientCode;
+    }
+
     /**
      * @return mixed
      */
@@ -85,6 +99,11 @@ class BrightOfficeApi extends Component
         curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
         $response = curl_exec($ch);
+
+
+
+        $this->xmlrpc_call_success_blogger_newPost = 
+
         \Yii::info($response, 'bright_office');
 
         $reader = new \Sabre\Xml\Reader();
@@ -102,6 +121,16 @@ class BrightOfficeApi extends Component
             }
         }
         curl_close($ch);
+
+        /*extract the client code*/
+        $resultMessages = implode(".", $resultMessages);
+        $resultMessagesArr = explode(" ", $resultMessages);
+        if (count($resultMessagesArr) === 1) {
+            /*success*/
+            $resultMessages = ltrim($resultMessages);
+            $resultMessages = rtrim($resultMessages);
+            $this->setClientCode($resultMessages);
+        }
         return $resultMessages;
     }
 

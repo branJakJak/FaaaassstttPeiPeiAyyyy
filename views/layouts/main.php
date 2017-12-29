@@ -15,14 +15,15 @@ $navLinkItem = [
     ['label' => 'Home', 'url' => ['/site/index']],
 ];
 
-if (Yii::$app->user->identity->username === 'admin') {
-    $navLinkItem[]=   ['label' => 'Clients', 'url' => ['/clients/index']];
-    $navLinkItem[]=   ['label' => 'Leads', 'url' => ['/leads/index']];
-}
 
 if (Yii::$app->user->isGuest) {
     $navLinkItem[] = ['label' => 'Login', 'url' => ['/user/login']];
 }else{
+    if (Yii::$app->user->identity->username === 'admin') {
+        $navLinkItem[]=   ['label' => 'Clients', 'url' => ['/clients/index']];
+        $navLinkItem[]=   ['label' => 'Leads', 'url' => ['/leads/index']];
+    }
+    
     $navLinkItem[] =     '<li>'
     . Html::beginForm(['/user/logout'], 'post')
     . Html::submitButton(
